@@ -22,9 +22,13 @@ and what you should write is the favNum function that makes the code above work,
     
 */
 
-ok
 
   //Code Here for first
+
+var first = function(names, callback) {
+  var firstName = names[0];
+    callback (names[0]);
+  } 
   
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
@@ -35,10 +39,12 @@ first(names, function(firstName){
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
-
-
-
   //Code Here for last
+
+var last = function(names, callback) {
+  var lastName = names[names.length - 1];
+  callback(names[names.length - 1])
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
@@ -46,33 +52,27 @@ last(names, function(lastName){
 });
 
 
-
-
-
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
 
-
-
-
-
   //Code Here for multiply
+
+var multiply = function(num1, num2, callback) {
+  var nums = num1 * num2;
+  callback(nums);
+}
 
 multiply(4, 3, function(answer){
   console.log('The answer is ', answer); //should console.log 12
 })
 
-
-
-
-
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
 
-
-
-
   //Code Here for contains
+
+
+
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 contains(names, 'Colt', function(result){
