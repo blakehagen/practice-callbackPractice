@@ -71,7 +71,13 @@ multiply(4, 3, function(answer){
 
   //Code Here for contains
 
-
+var contains = function(arr, str, callback) {
+  for(var i = 0; i < arr.length; i++) {
+    if (str === arr[i]) {
+      return callback(true); 
+    }
+  }
+}
 
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -83,16 +89,19 @@ contains(names, 'Colt', function(result){
   }
 });
 
-
-
-
-
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
-
-
-
     //Code Here for uniq
+
+var uniq = function(arr, callback) {
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === arr[j]) {
+      for (var j = 0; j < arr.length; i++) {
+
+      }
+    }
+  }
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 uniq(names, function(uniqArr){
