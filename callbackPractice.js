@@ -22,7 +22,7 @@ and what you should write is the favNum function that makes the code above work,
     
 */
 
-
+ok
 
   //Code Here for first
   
