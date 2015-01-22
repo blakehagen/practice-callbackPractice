@@ -93,12 +93,16 @@ contains(names, 'Colt', function(result){
 
     //Code Here for uniq
 
-var newArr [];
-for(var i = 0; i(arr.length); i++) {
-  if (newArr.indexOf(arr[i])) < 0) {
-    newArr.push(arr[i]);
+var uniq = function (arr, callback) {
+  var uniqArr = [];
+  for(var i = 0; i(arr.length); i++) {
+    if (newArr.indexOf(arr[i]) < 0) {
+      newArr.push(arr[i]);
+    }
   }
 }
+
+
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 uniq(names, function(uniqArr){
