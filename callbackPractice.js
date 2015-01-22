@@ -93,13 +93,10 @@ contains(names, 'Colt', function(result){
 
     //Code Here for uniq
 
-var uniq = function(arr, callback) {
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === arr[j]) {
-      for (var j = 0; j < arr.length; i++) {
-
-      }
-    }
+var newArr [];
+for(var i = 0; i(arr.length); i++) {
+  if (newArr.indexOf(arr[i])) < 0) {
+    newArr.push(arr[i]);
   }
 }
 
